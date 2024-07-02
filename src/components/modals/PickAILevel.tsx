@@ -22,7 +22,7 @@ const PickAiLevel: React.FC<PickAiLevelProps> = ({
     'relative h-full w-full border-2 transition-all duration-300 hover:scale-[1.1]';
   const btnClasses = {
     selected:
-      'bg-gradient-to-t from-yellow-900 to-yellow-400 rounded-lg border-purple-400 text-white',
+      'bg-gradient-to-t from-blue-900 to-pink-400 rounded-lg border-purple-400 text-white',
     unselected: 'bg-gray-400 border-gray-800 rounded-lg relative text-gray-200',
   };
   const aiLevelsList = [

@@ -21,13 +21,13 @@ const PickSide: React.FC<PickSideProps> = ({
     'text-8xl relative h-full w-full py-4 border-2 transition-all duration-300 hover:scale-[1.1]';
   const btnClasses = {
     selected:
-      'bg-gradient-to-t from-yellow-900 to-yellow-400 rounded-lg border-purple-400 text-white',
+      'bg-gradient-to-t from-blue-900 to-red-400 rounded-lg border-purple-400 text-white',
     unselected: 'bg-gray-400 border-gray-800 rounded-lg relative text-gray-200',
   };
 
   return (
     <TransitionWrap show={show} className="">
-      <div className="bg-purple-900 w-screen border-2 border-purple-400 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
+      <div className="bg-green-900 w-screen border-2 border-purple-400 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
         <div id="menu-pick-side" className="text-2xl uppercase text-white">
           Pick a side:
         </div>
