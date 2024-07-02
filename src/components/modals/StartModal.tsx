@@ -20,7 +20,7 @@ const StartModal: React.FC<StartModalProps> = ({
           <div className="mb-8">
             <button
               data-testid="startmenu-play"
-              className="relative px-16 py-4 text-4xl border-2 border-purple-300 text-white bg-gradient-to-t from-black to-purple-700 rounded-lg scale-100 hover:scale-[1.2] transition-scale font-bold duration-300"
+              className="relative px-16 py-4 text-4xl border-2 border-purple-300 text-white bg-gradient-to-t from-black to-blue-600 rounded-lg scale-100 hover:scale-[1.2] transition-scale font-bold duration-300"
               onClick={handleStartClick}
             >
               PLAY
@@ -30,7 +30,7 @@ const StartModal: React.FC<StartModalProps> = ({
         <div className="mt-4">
           <button
             data-testid="startmenu-reset"
-            className="relative px-4 py-2 text-lg border-2 border-purple-300 text-white bg-gradient-to-t from-black to-gray-500 rounded-lg scale-100 hover:scale-[1.2] transition-scale duration-300"
+            className="relative px-4 py-2 text-lg border-2 border-purple-300 text-white bg-gradient-to-t from-black to-red-500 rounded-lg scale-100 hover:scale-[1.2] transition-scale duration-300"
             onClick={handleResetClick}
           >
             RESET

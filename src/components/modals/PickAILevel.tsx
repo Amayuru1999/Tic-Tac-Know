@@ -34,7 +34,7 @@ const PickAiLevel: React.FC<PickAiLevelProps> = ({
 
   return (
     <TransitionWrap show={show} className="">
-      <div className="bg-purple-900 w-screen text-white border-2 border-purple-400 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
+      <div className="bg-green-800 w-screen text-white border-2 border-red-300 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
         <div id="menu-pick-side" className="text-2xl uppercase">
           Pick your AI opponent:
         </div>

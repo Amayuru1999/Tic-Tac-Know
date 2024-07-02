@@ -14,7 +14,7 @@ const ResetConfirm: React.FC<ResetConfirmProps> = ({
 }) => {
   return (
     <TransitionWrap show={show}>
-      <div className="bg-purple-900 w-screen text-white border-2 border-purple-400 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
+      <div className="bg-green-900 w-screen text-white border-2 border-purple-400 rounded-lg p-4 w-full max-w-xl drop-shadow-xl">
         <div id="menu-pick-side" className="text-2xl uppercase">
           Are you sure about this?
         </div>

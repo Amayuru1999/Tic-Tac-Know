@@ -10,7 +10,7 @@ const Bg: React.FC<BgProps> = ({ variant }) => {
   return (
     <div className="absolute w-full h-full left-0 top-0">
       <div className={`absolute w-full h-full left-0 top-0 ${bgPattern}`} />
-      <div className="absolute w-full h-full left-0 top-0 bg-gradient-to-t from-purple-900 mix-blend-multiply" />
+      <div className="absolute w-full h-full left-0 top-0 bg-gradient-to-t from-blue-300 mix-blend-multiply" />
     </div>
   );
 };

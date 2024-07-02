@@ -41,7 +41,7 @@ const Menu: React.FC<MenuProps> = ({
             <div className="w-64 h-auto mx-auto">
               <Logo />
             </div>
-            <h2 className="text-xl leading-tight text-purple-400">
+            <h2 className="text-xl leading-tight text-black-400">
               <i>A game that learns as you play.</i>
             </h2>
           </div>
